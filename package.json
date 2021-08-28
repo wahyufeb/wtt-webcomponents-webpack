@@ -1,0 +1,24 @@
+{
+	"name": "wtt_app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"build": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wahyufeb/wtt-webcomponents-webpack.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/wahyufeb/wtt-webcomponents-webpack/issues"
+	},
+	"homepage": "https://github.com/wahyufeb/wtt-webcomponents-webpack#readme",
+	"devDependencies": {
+		"webpack": "^5.51.1",
+		"webpack-cli": "^4.8.0"
+	}
+}
