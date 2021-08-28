@@ -8,20 +8,19 @@ const main = () => {
 
     const onButtonSearchClicked = async () => {
         try {
-            const result = await DataSource.searchPlayer(searchElement.value);
-            renderResult(result);
+            const result = await DataSource.searchPlayer(searchElement.value)
+            renderResult(result)
         } catch (message) {
             fallbackResult(message)
         }
     };
 
     const renderResult = results => {
-        playerListElement.players = results;
-        console.log(playerListElement. players)
+        playerListElement.players = results
     };
 
     const fallbackResult = message => {
-        playerListElement.renderError(message);
+        playerListElement.renderError(message)
     };
 
     searchElement.onSearchEvent = onButtonSearchClicked
